@@ -13,6 +13,7 @@ public class GradeTest {
 		assertEquals("F", grade.convert(0));
 	}
 	
+	/*
 	@Test
 	public void scrore50ShouldGetGradeD() {
 		assertEquals("D", grade.convert(50));
@@ -37,5 +38,6 @@ public class GradeTest {
 	public void scrore100ShouldGetGradeA() {
 		assertEquals("A", grade.convert(100));
 	}
+	*/
 
 }
