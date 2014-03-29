@@ -1,4 +1,3 @@
-package demo.jenkins;
 
 import static org.junit.Assert.*;
 
@@ -31,6 +30,11 @@ public class GradeTest {
 	@Test
 	public void scrore80ShouldGetGradeA() {
 		assertEquals("A", grade.convert(80));
+	}
+
+	@Test
+	public void scrore80ShouldGetGradeA() {
+		assertEquals("A", grade.convert(100));
 	}
 
 }
