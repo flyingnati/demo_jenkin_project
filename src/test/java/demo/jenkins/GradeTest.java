@@ -1,3 +1,4 @@
+package demo.jenkins;
 
 import static org.junit.Assert.*;
 
