@@ -33,7 +33,7 @@ public class GradeTest {
 	}
 
 	@Test
-	public void scrore80ShouldGetGradeA() {
+	public void scrore100ShouldGetGradeA() {
 		assertEquals("A", grade.convert(100));
 	}
 
