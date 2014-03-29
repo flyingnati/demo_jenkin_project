@@ -3,6 +3,9 @@ package demo.jenkins;
 public class Grade {
 
 	public String convert(int score) {
+		if(score >= 85) {
+			return "A+";
+		}
 		if(score >= 80) {
 			return "A";
 		}
