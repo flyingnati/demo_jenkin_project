@@ -9,19 +9,19 @@ int b = 70;
 int c = 60;
 int d = 50;
 
-if (score >= 85) {
+if (score >= ap) {
 return "A+";
 }
-if (score >= 80) {
+if (score >= a) {
 return "A";
 }
-if (score >= 70) {
+if (score >= b) {
 return "B";
 }
-if (score >= 60) {
+if (score >= c) {
 return "C";
 }
-if (score >= 50) {
+if (score >= d) {
 return "D";
 }
 return "F";
