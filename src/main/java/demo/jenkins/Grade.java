@@ -2,13 +2,12 @@ package demo.jenkins;
 
 public class Grade {
 
-private int ap = 85;
-private int a = 80;
-private int b = 70;
-private int c = 60;
-private int d = 50;
-
 public String convert(int score) {
+int ap = 85;
+int a = 80;
+int b = 70;
+int c = 60;
+int d = 50;
 if (score >= ap) {
 return "A+";
 }
